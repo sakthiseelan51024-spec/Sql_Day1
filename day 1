@@ -8,4 +8,4 @@ CREATE TABLE if not exists Employee(
      Department VARCHAR(50)
 );
 Show tables;
-describe Employee;
+
