@@ -1,0 +1,11 @@
+show databases;
+create database if not exists Employor;
+use Employor;
+CREATE TABLE if not exists Employee(
+     Empid INT,
+     Empname VARCHAR(50),
+     salary DECIMAL(10,2),
+     Department VARCHAR(50)
+);
+Show tables;
+describe Employee;
